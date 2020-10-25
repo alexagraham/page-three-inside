@@ -26,12 +26,10 @@ figure {
   margin: 0;
 }
 
-/*section styles*/
 main > article > section {
   padding: 65px 20px;
 }
 
-/*card styles*/
 .card {
   box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.16);
   border-radius: 5px;
@@ -43,11 +41,9 @@ main > article > section {
   padding: 20px;
 }
 
-/* header*/
-
 main > article > header {
   background-color: black;
-  padding: 0 20px;
+  padding: 0 0px;
   height: calc(100vh - 80%);
 }
 @media (min-width: 768px) {
@@ -60,7 +56,6 @@ main > article > header {
     margin-right: 80px;
   }
 }
-/*grid styles*/
 
 .grid-1-2 {
   display: grid;
@@ -80,7 +75,6 @@ main > article > header {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
-/*Nav Bar*/
 
 nav {
   height: 80px;
